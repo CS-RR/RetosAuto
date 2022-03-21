@@ -1,0 +1,4 @@
+co/com/choucair/certification/reto102/runners/InlineValidationRunner.java
+ co.com.choucair.certification.reto102.runners.InlineValidationRunner
+co/com/choucair/certification/reto102/stepdefinitions/ColorLibStepDefinitions.java
+ co.com.choucair.certification.reto102.stepdefinitions.ColorLibStepDefinitions
