@@ -6,9 +6,9 @@ import cucumber.api.SnippetType;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions (features = "src/test/resources/features/Nombre del .feature",
-        tags = "@tag1",
-        glue = "co.com.choucair.certification.proyectobase.stepdefinitions ",//Carpeta donde irá el Stepdefinitions
+@CucumberOptions (features = "src/test/resources/features/SimulacionCuota.feature",
+        tags = "@stories",
+        glue = "co.com.choucair.certification.reto201.stepdefinitions",
         snippets = SnippetType.CAMELCASE )
 public class SimulacionRunner {
 }
