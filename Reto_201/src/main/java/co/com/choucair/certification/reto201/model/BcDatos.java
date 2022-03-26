@@ -2,58 +2,32 @@ package co.com.choucair.certification.reto201.model;
 
 public class BcDatos {
 
-    private String Simular;
-    private String Fecha;
-    private String Tipotasa;
-    private String Producto;
-    private String Plazo;
-    private String Valor;
-
-    public String getSimular() {
-        return Simular;
-    }
-
-    public void setSimular(String simular) {
-        Simular = simular;
-    }
+    private String fecha;
+    private String plazo;
+    private String valor;
 
     public String getFecha() {
-        return Fecha;
+        return fecha;
     }
 
     public void setFecha(String fecha) {
-        Fecha = fecha;
-    }
-
-    public String getTipotasa() {
-        return Tipotasa;
-    }
-
-    public void setTipotasa(String tipotasa) {
-        Tipotasa = tipotasa;
-    }
-
-    public String getProducto() {
-        return Producto;
-    }
-
-    public void setProducto(String producto) {
-        Producto = producto;
+        this.fecha = fecha;
     }
 
     public String getPlazo() {
-        return Plazo;
+        return plazo;
     }
 
     public void setPlazo(String plazo) {
-        Plazo = plazo;
+        this.plazo = plazo;
     }
 
     public String getValor() {
-        return Valor;
+        return valor;
     }
 
     public void setValor(String valor) {
-        Valor = valor;
+        this.valor = valor;
     }
+
 }
