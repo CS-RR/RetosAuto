@@ -5,6 +5,15 @@ public class BcDatos {
     private String fecha;
     private String plazo;
     private String valor;
+    private String rplazo;
+
+    public String getRplazo() {
+        return rplazo;
+    }
+
+    public void setRplazo(String rplazo) {
+        this.rplazo = rplazo;
+    }
 
     public String getFecha() {
         return fecha;

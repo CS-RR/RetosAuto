@@ -9,4 +9,6 @@ Feature:
     When Ingresa los datos necesarios para simular su credito
     |fecha|plazo|valor|
     |1994-10-02|24|10000000|
-    Then verfica los resultados obtenidos para su cuota mensual
+    Then verifica los resultados obtenidos para su cuota mensual
+    |rplazo|
+    |24 meses|

@@ -1,12 +1,14 @@
 package co.com.choucair.certification.reto201.stepdefinitions;
 
 import co.com.choucair.certification.reto201.model.BcDatos;
+import co.com.choucair.certification.reto201.questions.Verifica;
 import co.com.choucair.certification.reto201.tasks.Llenar;
 import co.com.choucair.certification.reto201.tasks.OpenUp;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
@@ -29,8 +31,9 @@ public class SimulacionCuotaStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(Llenar.formulario(bcDatosList));
     }
 
-    @Then("^verfica los resultados obtenidos para su cuota mensual$")
-    public void verficaLosResultadosObtenidosParaSuCuotaMensual() {
+    @Then("^verifica los resultados obtenidos para su cuota mensual$")
+    public void verficaLosResultadosObtenidosParaSuCuotaMensual(List<BcDatos> bcDatosList) {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Verifica.toThe(bcDatosList)));
     }
 
 }
