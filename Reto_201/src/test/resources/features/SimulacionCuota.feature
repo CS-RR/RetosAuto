@@ -10,5 +10,5 @@ Feature:
     |fecha|plazo|valor|
     |1994-10-02|24|10000000|
     Then verifica los resultados obtenidos para su cuota mensual
-    |rplazo|
-    |24 meses|
+    |rplazo|rvalor|
+    |24 meses|10000000|

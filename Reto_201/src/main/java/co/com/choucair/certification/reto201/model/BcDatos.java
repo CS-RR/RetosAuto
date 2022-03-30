@@ -4,8 +4,17 @@ public class BcDatos {
 
     private String fecha;
     private String plazo;
-    private int valor;
+    private String valor;
     private String rplazo;
+    private int rvalor;
+
+    public int getRvalor() {
+        return rvalor;
+    }
+
+    public void setRvalor(int rvalor) {
+        this.rvalor = rvalor;
+    }
 
     public String getRplazo() {
         return rplazo;
@@ -31,11 +40,11 @@ public class BcDatos {
         this.plazo = plazo;
     }
 
-    public int getValor() {
+    public String getValor() {
         return valor;
     }
 
-    public void setValor(int valor) {
+    public void setValor(String valor) {
         this.valor = valor;
     }
 }
