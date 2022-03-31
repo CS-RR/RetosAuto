@@ -10,5 +10,7 @@ import org.junit.runner.RunWith;
         tags = "@stories",
         glue = "co.com.choucair.certification.reto201.stepdefinitions",
         snippets = SnippetType.CAMELCASE )
+
 public class SimulacionRunner {
+
 }
